@@ -57,8 +57,6 @@ http://iiif.library.ubc.ca/presentation/cdm.squeezes.1-0050935/manifest
 
 ## References
 
-References:
-
 - http://ronallo.com/iiif-workshop/presentation/image-annotation.html
 - http://iiif.io/api/presentation/2.1/#image-resources
 - http://darthcrimson.org/hacking-mirador/
