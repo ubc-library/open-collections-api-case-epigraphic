@@ -45,13 +45,22 @@ http://iiif.library.ubc.ca/presentation/cdm.squeezes.1-0050935/manifest
 }
 `
 
-- By using a text editor such as Sublime or Atom, create an HTML file named “epigraphic.html”. Paste in the code available on [epigraphic.html](https://github.com/carolamigo/ubc_mirador_epigraphic/blob/master/epigraphic.html).
+- By using a text editor such as Sublime or Atom, create an HTML file named “epigraphic.html”. Paste in the code available at [epigraphic.html](https://github.com/carolamigo/ubc_mirador_epigraphic/blob/master/epigraphic.html).
 
 - Open “epigraphic.html” on your browser. Click on “add item”, open the item, and toggl annotations on (button on the left upper corner). Draw your annotations on your image using this feature of Mirador.
 
-- The annotations will be stored in the local cache of your browser until it is closed. We need to retrieve the annotations from the local cache. In Firefox, on the Mirador window with the annotations, go to Tools > Web Developer > Inspector > Storage tab > Local storage. Select the value line and then the data line on the right. Copy and paste the data on a text editor such as Sublime or Atom, saving it as a JSON file named “annotation_list.json”. Remove the URL at the beginning of the code, the double quotes and square brackets (from beginning and end), as the code has to start at `{“@context (...)`. A version of the final annotation code, easier to read, is available on [annotation_list.json](https://github.com/carolamigo/ubc_mirador_epigraphic/blob/master/annotation_list.json) for reference.
+- The annotations will be stored in the local cache of your browser until it is closed. We need to retrieve the annotations from the local cache. In Firefox, on the Mirador window with the annotations, go to Tools > Web Developer > Inspector > Storage tab > Local storage. Select the value line and then the data line on the right. Copy and paste the data on a text editor such as Sublime or Atom, saving it as a JSON file named “annotation_list.json”. Remove the URL at the beginning of the code, the double quotes and square brackets (from beginning and end), as the code has to start at `{“@context (...)`. A version of the final annotation code, easier to read, is available at [annotation_list.json](https://github.com/carolamigo/ubc_mirador_epigraphic/blob/master/annotation_list.json) for reference.
 
 ![epigraphic_localstore.png](https://github.com/carolamigo/ubc_mirador_epigraphic/blob/master/epigraphic_localstorage.png)
 
 - Open the epigraphic.html file on your browser to see the final result. Click on Add item to see the menu with options.
+
+## References
+
+References:
+
+- http://ronallo.com/iiif-workshop/presentation/image-annotation.html
+- http://iiif.io/api/presentation/2.1/#image-resources
+- http://darthcrimson.org/hacking-mirador/
+- http://www.darthcrimson.org/hacking-mirador-workshop/annotate.html
 
