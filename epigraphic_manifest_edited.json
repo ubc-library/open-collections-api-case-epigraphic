@@ -1,0 +1,369 @@
+{
+  "label": "Decretum de Minervae Victoriae Sacerdote Temploque (I)",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "paged",
+  "metadata": [
+    {
+      "label": "AggregatedSourceRepository",
+      "value": "CONTENTdm",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://www.europeana.eu/schemas/edm/dataProvider",
+        "classmap": "ore:Aggregation",
+        "property": "edm:dataProvider"
+      },
+      "iri": "http://www.europeana.eu/schemas/edm/dataProvider",
+      "explain": "A Europeana Data Model Property; The name or identifier of the organization who contributes data indirectly to an aggregation service (e.g. Europeana)"
+    },
+    {
+      "label": "AlternateTitle",
+      "value": "Decretum De Minervae Victoriae Sacerdote Templeoque",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://purl.org/dc/terms/alternative",
+        "classmap": "dpla:SourceResource",
+        "property": "dcterms:alternative"
+      },
+      "iri": "http://purl.org/dc/terms/alternative",
+      "explain": "A Dublin Core Terms Property; An alternative name for the resource.; Note - the distinction between titles and alternative titles is resource-specific."
+    },
+    {
+      "label": "Category",
+      "value": "Decrees and laws dated to the second century",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://purl.org/dc/terms/subject",
+        "classmap": "oc:DataDescription",
+        "property": "dcterms:subject"
+      },
+      "iri": "http://purl.org/dc/terms/subject",
+      "explain": "A Dublin Core Terms Property; The topic of the resource.; Typically, the subject will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary."
+    },
+    {
+      "label": "Collection",
+      "value": "Epigraphic Squeezes Collection",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://purl.org/dc/terms/isPartOf",
+        "classmap": "dpla:SourceResource",
+        "property": "dcterms:isPartOf"
+      },
+      "iri": "http://purl.org/dc/terms/isPartOf",
+      "explain": "A Dublin Core Terms Property; A related resource in which the described resource is physically or logically included."
+    },
+    {
+      "label": "DateAvailable",
+      "value": "2014-11-21",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://purl.org/dc/terms/issued",
+        "classmap": "edm:WebResource",
+        "property": "dcterms:issued"
+      },
+      "iri": "http://purl.org/dc/terms/issued",
+      "explain": "A Dublin Core Terms Property; Date of formal issuance (e.g., publication) of the resource."
+    },
+    {
+      "label": "DateCreated",
+      "value": "199-100 BCE",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://purl.org/dc/terms/created",
+        "classmap": "oc:SourceResource",
+        "property": "dcterms:created"
+      },
+      "iri": "http://purl.org/dc/terms/created",
+      "explain": "A Dublin Core Terms Property; Date of creation of the resource."
+    },
+    {
+      "label": "DigitalResourceOriginalRecord",
+      "value": "https://open.library.ubc.ca/collections/squeezes/items/1.0050935/source.json",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+        "classmap": "ore:Aggregation",
+        "property": "edm:aggregatedCHO"
+      },
+      "iri": "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "explain": "A Europeana Data Model Property; The identifier of the source object, e.g. the Mona Lisa itself. This could be a full linked open date URI or an internal identifier"
+    },
+    {
+      "label": "Extent",
+      "value": "4 squeezes, 1 fragment",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://purl.org/dc/terms/extent",
+        "classmap": "dpla:SourceResource",
+        "property": "dcterms:extent"
+      },
+      "iri": "http://purl.org/dc/terms/extent",
+      "explain": "A Dublin Core Terms Property; The size or duration of the resource."
+    },
+    {
+      "label": "FileFormat",
+      "value": "image/jpeg",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://purl.org/dc/elements/1.1/format",
+        "classmap": "edm:WebResource",
+        "property": "dc:format"
+      },
+      "iri": "http://purl.org/dc/elements/1.1/format",
+      "explain": "A Dublin Core Elements Property; The file format, physical medium, or dimensions of the resource.; Examples of dimensions include size and duration. Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME]."
+    },
+    {
+      "label": "FullText",
+      "value": "Array",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://www.w3.org/2009/08/skos-reference/skos.html#note",
+        "classmap": "oc:AnnotationContainer"
+      },
+      "iri": "http://www.w3.org/2009/08/skos-reference/skos.html#note",
+      "explain": "Simple Knowledge Organisation System; Notes are used to provide information relating to SKOS concepts. There is no restriction on the nature of this information, e.g., it could be plain text, hypertext, or an image; it could be a definition, information about the scope of a concept, editorial information, or any other type of information."
+    },
+    {
+      "label": "Genre",
+      "value": "Epigraphic Squeeze",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://www.europeana.eu/schemas/edm/hasType",
+        "classmap": "dpla:SourceResource",
+        "property": "edm:hasType"
+      },
+      "iri": "http://www.europeana.eu/schemas/edm/hasType",
+      "explain": "A Europeana Data Model Property; This property relates a resource with the concepts it belongs to in a suitable type system such as MIME or any thesaurus that captures categories of objects in a given field. It does NOT capture aboutness"
+    },
+    {
+      "label": "Identifier",
+      "value": "IG_I3_0035",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://purl.org/dc/terms/identifier",
+        "classmap": "dpla:SourceResource",
+        "property": "dcterms:identifier"
+      },
+      "iri": "http://purl.org/dc/terms/identifier",
+      "explain": "A Dublin Core Terms Property; An unambiguous reference to the resource within a given context.; Recommended best practice is to identify the resource by means of a string conforming to a formal identification system."
+    },
+    {
+      "label": "IsShownAt",
+      "value": "10.14288/1.0050935",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://www.europeana.eu/schemas/edm/isShownAt",
+        "classmap": "edm:WebResource",
+        "property": "edm:isShownAt"
+      },
+      "iri": "http://www.europeana.eu/schemas/edm/isShownAt",
+      "explain": "A Europeana Data Model Property; An unambiguous URL reference to the digital object on the provider’s website in its full information context."
+    },
+    {
+      "label": "Language",
+      "value": "Greek, Ancient (to 1453)",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://purl.org/dc/terms/language",
+        "classmap": "dpla:SourceResource",
+        "property": "dcterms:language"
+      },
+      "iri": "http://purl.org/dc/terms/language",
+      "explain": "A Dublin Core Terms Property; A language of the resource.; Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646]."
+    },
+    {
+      "label": "Notes",
+      "value": "Title taken from Inscriptiones Graecae I2 (IG I2).<br><br>Alternative title taken from Inscriptiones Graecae I3 (IG I3).",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://www.w3.org/2009/08/skos-reference/skos.html#note",
+        "classmap": "skos:Concept",
+        "property": "skos:note"
+      },
+      "iri": "http://www.w3.org/2009/08/skos-reference/skos.html#note",
+      "explain": "Simple Knowledge Organisation System; Notes are used to provide information relating to SKOS concepts. There is no restriction on the nature of this information, e.g., it could be plain text, hypertext, or an image; it could be a definition, information about the scope of a concept, editorial information, or any other type of information."
+    },
+    {
+      "label": "ProjectWebsite",
+      "value": "http://fromstonetoscreen.wordpress.com/squeeze-collection",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://purl.org/dc/terms/relation",
+        "classmap": "dpla:SourceResource",
+        "property": "dcterms:relation"
+      },
+      "iri": "http://purl.org/dc/terms/relation",
+      "explain": "A Dublin Core Terms Property; A related resource.; Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."
+    },
+    {
+      "label": "Provider",
+      "value": "Vancouver : University of British Columbia Library",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://www.europeana.eu/schemas/edm/provider",
+        "classmap": "ore:Aggregation",
+        "property": "edm:provider"
+      },
+      "iri": "http://www.europeana.eu/schemas/edm/provider",
+      "explain": "A Europeana Data Model Property; The name or identifier of the organization who delivers data directly to an aggregation service (e.g. Europeana)"
+    },
+    {
+      "label": "Publisher",
+      "value": "Vancouver: University of British Columbia Library.",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://purl.org/dc/terms/publisher",
+        "classmap": "dpla:SourceResource",
+        "property": "dcterms:publisher"
+      },
+      "iri": "http://purl.org/dc/terms/publisher",
+      "explain": "A Dublin Core Terms Property; An entity responsible for making the resource available.; Examples of a Publisher include a person, an organization, or a service."
+    },
+    {
+      "label": "Reference",
+      "value": "IG I2 # 24<br><br>IG I3 # 35<br><br>EM # 8116",
+      "attrs": {
+        "lang": "en",
+        "ns": "https://open.library.ubc.ca/terms#reference",
+        "classmap": "oc:ArtifactDescription",
+        "property": "oc:reference"
+      },
+      "iri": "https://open.library.ubc.ca/terms#reference",
+      "explain": "UBC Open Collections Metadata Components; Local Field; Records the reference numbers from various indices.; Records the reference numbers from various indices."
+    },
+    {
+      "label": "Rights",
+      "value": "Images provided for research and reference use only. Permission to publish, copy or otherwise use these images must be obtained from the Digitization Centre:  http://digitize.library.ubc.ca/",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://purl.org/dc/terms/rights",
+        "classmap": "edm:WebResource",
+        "property": "dcterms:rights"
+      },
+      "iri": "http://purl.org/dc/terms/rights",
+      "explain": "A Dublin Core Terms Property; Information about rights held in and over the resource.; Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights."
+    },
+    {
+      "label": "SortDate",
+      "value": "199 BC",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://purl.org/dc/elements/1.1/date",
+        "classmap": "dpla:SourceResource"
+      },
+      "iri": "http://purl.org/dc/elements/1.1/date",
+      "explain": "A Dublin Core Elements Property; A point or period of time associated with an event in the lifecycle of the resource.; Date may be used to express temporal information at any level of granularity. Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF]."
+    },
+    {
+      "label": "Source",
+      "value": "University of British Columbia. Department of Classical, Near Eastern and Religious Studies.",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://purl.org/dc/terms/source",
+        "classmap": "oc:SourceResource",
+        "property": "dcterms:source"
+      },
+      "iri": "http://purl.org/dc/terms/source",
+      "explain": "A Dublin Core Terms Property; A related resource from which the described resource is derived.; The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."
+    },
+    {
+      "label": "Title",
+      "value": "Decretum de Minervae Victoriae Sacerdote Temploque (I)",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://purl.org/dc/terms/title",
+        "classmap": "dpla:SourceResource",
+        "property": "dcterms:title"
+      },
+      "iri": "http://purl.org/dc/terms/title",
+      "explain": "A Dublin Core Terms Property; The name given to the resource."
+    },
+    {
+      "label": "Translation",
+      "value": ".…. ΑΥΚΟΣΕΙΠΕ ....<br>\n<br>.... ΚΕΙΗΙΕΡΕΑΝΕΑΓ.... <br>\n<br>....ΙΕΚΣΑΘΕΝΑΙΟΝΑΠΑ... <br>\n<br>....ΣΤΑΙΚΑΙΤΟΙΕΡΟΝΘΥΡΟΣΑ<br>\n<br>ΙΚΑΘΟΤΙΑΝΚΑΛΛΙΚΡΑΤΕΣΧΣΥΓΓΡΑΦΣ<br>\n<br>ΕΙΑΠΟΜΙΣΘΟΣΑΙΔΕΤΟΣΠΟΛΕΤΑΣΕΠΙΤ<br>\n<br>ΕΣΛΕΟΝΤΙΔΟΣΠΡΥΤΑΝΕΙΑΣΦΕΡΕΝΔΕΤ<br>\n<br>ΕΝΙΕΡΕΑΝΠΕΝΤΕΚΟΝΤΑΔΡΑΧΜΑΣΚΑΙ<br>\n<br>ΤΑΣΚΕΛΕΚΑΙΤΑΔΕΡΜΑΤΑΦΕΡΕΝΤΟΝΔΕ<br>\n<br>ΜΟΣΙΟΝΝΕΟΝΔΕΟΙΚΟΔΟΜΕΣΑΙΚΑΘΟΤΙ<br>\n<br>ΑΝΚΑΛΛΙΚΡΑΤΕΣΧΣΘΓΓΡΑΦΣΕΙΚΑΙΒΟ<br>\n<br>ΜΟΝΛΙΘΙΝΟΝ<br>\n<br>ΕΣΤΙΑΙΟΣΕΙΠΕΤΡΕΣΑΝΔΡΑΣΕΛΕΣΘ<br>\n<br>ΑΙΕΓΒΟΛΕΣΤΟΘΤΟΣΔΕΜΕΤ [. ] ΚΑΛΛΙΚΡΑ<br>\n<br>..ΣΧΣΘΓΓΑΦΣΑΝΤΑΣ ΕΠΙΔ.. <br>\n<br>....ΕΙΚΑΘΟΤΙΑΠΟΜ.....",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://www.europeana.eu/schemas/edm/isDerivativeOf",
+        "classmap": "edm:ProvidedCHO",
+        "property": "edm:isDerivativeOf"
+      },
+      "iri": "http://www.europeana.eu/schemas/edm/isDerivativeOf",
+      "explain": "A Europeana Data Model Property; This property captures a narrower notion of derivation than edm:isSimilarTo, in the sense that it relates a resource to another one, obtained by reworking, reducing, expanding, parts or the whole contents of the former, and possibly adding some minor parts. Versions have an even narrower meaning, in that it requires common identity between the related resources. Translations, summaries, abstractions etc. do not qualify as versions, but do qualify as derivatives"
+    },
+    {
+      "label": "Type",
+      "value": "Still Image",
+      "attrs": {
+        "lang": "en",
+        "ns": "http://purl.org/dc/terms/type",
+        "classmap": "dpla:SourceResource",
+        "property": "dcterms:type"
+      },
+      "iri": "http://purl.org/dc/terms/type",
+      "explain": "A Dublin Core Terms Property; The nature or genre of the resource.; Recommended best practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [DCMITYPE]. To describe the file format, physical medium, or dimensions of the resource, use the Format element."
+    }
+  ],
+  "thumbnail": "https://iiif.library.ubc.ca/image/cdm.squeezes.1-0050935.0000/full/80,100/0/default.jpg",
+  "attribution": "Images provided for research and reference use only. Permission to publish, copy or otherwise use these images must be obtained from the Digitization Centre:  http://digitize.library.ubc.ca/",
+  "sequences": [
+    {
+      "@id": "https://iiif.library.ubc.ca/presentation/cdm.squeezes.1-0050935/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default",
+      "viewingDirection": "left-to-right",
+      "viewingHint": "paged",
+      "canvases": [
+        {
+          "@id": "https://iiif.library.ubc.ca/presentation/cdm.squeezes.1-0050935/canvas/p0",
+          "@type": "sc:Canvas",
+          "label": "Decretum de Minervae Victoriae Sacerdote Temploque (I)",
+          "height": 5747,
+          "width": 6188,
+          "images": [
+            {
+              "@id": "https://iiif.library.ubc.ca/presentation/cdm.squeezes.1-0050935/annotation/p0000",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.ubc.ca/image/cdm.squeezes.1-0050935",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5747,
+                "width": 6188,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.ubc.ca/image/cdm.squeezes.1-0050935",
+                  "@profile": "http://iiif.io/api/image/2/level2.json",
+                  "scaleFactors": [
+                    1,
+                    2,
+                    4,
+                    8,
+                    16,
+                    32,
+                    64,
+                    128,
+                    256,
+                    512,
+                    1024
+                  ]
+                }
+              },
+              "on": "https://iiif.library.ubc.ca/cdm.squeezes.1-0050935/canvas/p0"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "http://localhost:3000/annotation_list.json",
+              "@type": "sc:AnnotationList",
+              "label": "Text of this page"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "[No description]",
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:3000/epigraphic_manifest_edited.json",
+  "@type": "sc:Manifest"
+}

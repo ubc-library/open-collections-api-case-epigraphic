@@ -1,0 +1,185 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:3000/annotation_list.json",
+  "@type": "sc:AnnotationList",
+
+  "resources": [
+  {
+      "@id": "anno_01",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource":{
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "<p>.&hellip;. &Alpha;&Upsilon;&Kappa;&Omicron;&Sigma;&Epsilon;&Iota;&Pi;&Epsilon; ....</p>\n<p>[.....ἐ&pi;&epsilon;&sigma;&tau;ά&tau;&epsilon;, &Gamma;&lambda;]&alpha;ῦ&kappa;&omicron;&sigmaf; &epsilon;ἶ&pi;&epsilon;&bull; [&tau;&epsilon;ῖ ]</p>"
+      },
+      "on": "https://iiif.library.ubc.ca/cdm.squeezes.1-0050935/canvas/p0#xywh=3468,928,1396,246"
+    },
+    {
+        "@id": "anno_02",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource":{
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "<p>.... &Kappa;&Epsilon;&Iota;&Eta;&Iota;&Epsilon;&Rho;&Epsilon;&Alpha;&Nu;&Epsilon;&Alpha;&Gamma;....</p>\n<p>[Ἀ&theta;&epsilon;&nu;&alpha;ί&alpha;&iota; &tau;&epsilon;ῖ &Nu;ί]&kappa;&epsilon;&iota; ἱέ&rho;&epsilon;&alpha;&nu; ἕ ἄ&gamma; [&kappa;&lambda;]</p>"
+        },
+        "on": "https://iiif.library.ubc.ca/cdm.squeezes.1-0050935/canvas/p0#xywh=2987,1172,1903,212"
+      },
+      {
+          "@id": "anno_03",
+          "@type": "oa:Annotation",
+          "motivation": "sc:painting",
+          "resource":{
+            "@type": "cnt:ContentAsText",
+            "format": "text/plain",
+            "chars": "<p>....&Iota;&Epsilon;&Kappa;&Sigma;&Alpha;&Theta;&Epsilon;&Nu;&Alpha;&Iota;&Omicron;&Nu;&Alpha;&Pi;&Alpha;... </p>\n<p>[&epsilon;&rho;&omicron;&mu;έ&nu;&epsilon; &lambda;ά&chi;&epsilon;]&iota; ἐ&chi;&sigmaf; Ἀ&theta;&epsilon;&nu;&alpha;ί&omicron;&nu; ἁ&pi;&alpha;[&sigma;&otilde;]</p>"
+          },
+          "on": "https://iiif.library.ubc.ca/cdm.squeezes.1-0050935/canvas/p0#xywh=2293,1395,2747,209"
+        },
+        {
+            "@id": "anno_04",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource":{
+              "@type": "cnt:ContentAsText",
+              "format": "text/plain",
+              "chars": "<p>....&Sigma;&Tau;&Alpha;&Iota;&Kappa;&Alpha;&Iota;&Tau;&Omicron;&Iota;&Epsilon;&Rho;&Omicron;&Nu;&Theta;&Upsilon;&Rho;&Omicron;&Sigma;&Alpha;</p>\n<p>[&nu; &kappa;&alpha;&theta;ί&sigma;&tau;&alpha;]&sigma;&theta;&alpha;&iota; &kappa;&alpha;&iota; &tau;ὸ ἱ&epsilon;&rho;ὸ&nu; &theta;&upsilon;&rho;&otilde;&sigma;&alpha;</p>"
+            },
+            "on": "https://iiif.library.ubc.ca/cdm.squeezes.1-0050935/canvas/p0#xywh=2027,1608,3339,197"
+          },
+          {
+              "@id": "anno_05",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource":{
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "<p>&Iota;&Kappa;&Alpha;&Theta;&Omicron;&Tau;&Iota;&Alpha;&Nu;&Kappa;&Alpha;&Lambda;&Lambda;&Iota;&Kappa;&Rho;&Alpha;&Tau;&Epsilon;&Sigma;&Chi;&Sigma;&Upsilon;&Gamma;&Gamma;&Rho;&Alpha;&Phi;&Sigma;</p>\n<p>&iota; &kappa;&alpha;&theta;᾽ ὅ &tau;&iota; ἄ&nu; &Kappa;&alpha;&lambda;&lambda;&iota;&kappa;&rho;ά&tau;&epsilon;&sigmaf; &chi;&sigma;&upsilon;&gamma;&gamma;&rho;ά&phi;&sigma;</p>"
+              },
+              "on": "https://iiif.library.ubc.ca/cdm.squeezes.1-0050935/canvas/p0#xywh=584,1821,4800,203"
+            },
+            {
+                "@id": "anno_06",
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "resource":{
+                  "@type": "cnt:ContentAsText",
+                  "format": "text/plain",
+                  "chars": "<p>&Epsilon;&Iota;&Alpha;&Pi;&Omicron;&Mu;&Iota;&Sigma;&Theta;&Omicron;&Sigma;&Alpha;&Iota;&Delta;&Epsilon;&Tau;&Omicron;&Sigma;&Pi;&Omicron;&Lambda;&Epsilon;&Tau;&Alpha;&Sigma;&Epsilon;&Pi;&Iota;&Tau;</p>\n<p>&epsilon;&iota;&bull; ἀ&pi;&omicron;&mu;&iota;&sigma;&upsilon;&otilde;&sigma;&alpha;&iota; &delta;ὲ &tau;ὸ&sigmaf; &pi;&omicron;&lambda;&epsilon;&tau;ά&sigmaf; ἐ&pi;ὶ &tau;</p>"
+                },
+                "on": "https://iiif.library.ubc.ca/cdm.squeezes.1-0050935/canvas/p0#xywh=566,2028,4823,209"
+              },
+              {
+                  "@id": "anno_07",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "resource":{
+                    "@type": "cnt:ContentAsText",
+                    "format": "text/plain",
+                    "chars": "<p>&Epsilon;&Sigma;&Lambda;&Epsilon;&Omicron;&Nu;&Tau;&Iota;&Delta;&Omicron;&Sigma;&Pi;&Rho;&Upsilon;&Tau;&Alpha;&Nu;&Epsilon;&Iota;&Alpha;&Sigma;&Phi;&Epsilon;&Rho;&Epsilon;&Nu;&Delta;&Epsilon;&Tau;</p>\n<p>ἔ&sigmaf; &Lambda;&epsilon;&omicron;&nu;&tau;ί&delta;&omicron;&sigmaf; &pi;&rho;&upsilon;&tau;&alpha;&nu;&epsilon;ί&alpha;&sigmaf;. &phi;έ&rho;&epsilon;&nu; &delta;ὲ &tau;</p>"
+                  },
+                  "on": "https://iiif.library.ubc.ca/cdm.squeezes.1-0050935/canvas/p0#xywh=566,2247,4823,209"
+                },
+                {
+                    "@id": "anno_08",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource":{
+                      "@type": "cnt:ContentAsText",
+                      "format": "text/plain",
+                      "chars": "<p>&Epsilon;&Nu;&Iota;&Epsilon;&Rho;&Epsilon;&Alpha;&Nu;&Pi;&Epsilon;&Nu;&Tau;&Epsilon;&Kappa;&Omicron;&Nu;&Tau;&Alpha;&Delta;&Rho;&Alpha;&Chi;&Mu;&Alpha;&Sigma;&Kappa;&Alpha;&Iota;</p>\n<p>ἐ&nu; ἱ&epsilon;&rho;&epsilon;&alpha;&nu; &pi;&epsilon;&nu;&tau;έ&kappa;&omicron;&nu;&tau;&alpha; &delta;&rho;&alpha;&chi;&mu;ὰ&sigmaf; &kappa;&alpha;ὶ</p>"
+                    },
+                    "on": "https://iiif.library.ubc.ca/cdm.squeezes.1-0050935/canvas/p0#xywh=554,2466,4835,197"
+                  },
+                  {
+                      "@id": "anno_09",
+                      "@type": "oa:Annotation",
+                      "motivation": "sc:painting",
+                      "resource":{
+                        "@type": "cnt:ContentAsText",
+                        "format": "text/plain",
+                        "chars": "<p>&Tau;&Alpha;&Sigma;&Kappa;&Epsilon;&Lambda;&Epsilon;&Kappa;&Alpha;&Iota;&Tau;&Alpha;&Delta;&Epsilon;&Rho;&Mu;&Alpha;&Tau;&Alpha;&Phi;&Epsilon;&Rho;&Epsilon;&Nu;&Tau;&Omicron;&Nu;&Delta;&Epsilon;</p>\n<p>&tau;ὰ &sigma;&kappa;έ&lambda;&epsilon; &kappa;&alpha;ὶ &tau;ὰ &delta;έ&rho;&mu;&alpha;&tau;&alpha; &phi;έ&rho;&epsilon;&nu; &tau;&otilde;&nu; &delta;&epsilon;</p>"
+                      },
+                      "on": "https://iiif.library.ubc.ca/cdm.squeezes.1-0050935/canvas/p0#xywh=565,2677,4817,194"
+                    },
+                    {
+                        "@id": "anno_10",
+                        "@type": "oa:Annotation",
+                        "motivation": "sc:painting",
+                        "resource":{
+                          "@type": "cnt:ContentAsText",
+                          "format": "text/plain",
+                          "chars": "<p>&Mu;&Omicron;&Sigma;&Iota;&Omicron;&Nu;&Nu;&Epsilon;&Omicron;&Nu;&Delta;&Epsilon;&Omicron;&Iota;&Kappa;&Omicron;&Delta;&Omicron;&Mu;&Epsilon;&Sigma;&Alpha;&Iota;&Kappa;&Alpha;&Theta;&Omicron;&Tau;&Iota;</p>\n<p>&mu;&omicron;&sigma;ί&omicron;&nu;&bull; &nu;&epsilon;ὸ&nu; &delta;ὲ &omicron;ἰ&kappa;&omicron;&delta;&omicron;&mu;&epsilon;&sigma;&alpha;&iota; &kappa;&alpha;&theta;᾽ὅ &tau;&iota;</p>"
+                        },
+                        "on": "https://iiif.library.ubc.ca/cdm.squeezes.1-0050935/canvas/p0#xywh=554,2874,4833,205"
+                      },
+                      {
+                          "@id": "anno_11",
+                          "@type": "oa:Annotation",
+                          "motivation": "sc:painting",
+                          "resource":{
+                            "@type": "cnt:ContentAsText",
+                            "format": "text/plain",
+                            "chars": "<p>&Alpha;&Nu;&Kappa;&Alpha;&Lambda;&Lambda;&Iota;&Kappa;&Rho;&Alpha;&Tau;&Epsilon;&Sigma;&Chi;&Sigma;&Theta;&Gamma;&Gamma;&Rho;&Alpha;&Phi;&Sigma;&Epsilon;&Iota;&Kappa;&Alpha;&Iota;&Beta;&Omicron;</p>\n<p>ἀ&nu; &Kappa;&alpha;&lambda;&lambda;&iota;&kappa;&rho;ά&tau;&epsilon;&sigmaf; &chi;&sigma;&upsilon;&gamma;&gamma;&rho;ά&phi;&sigma;&epsilon;&iota; &kappa;&alpha;ὶ &beta;&omicron;</p>"
+                          },
+                          "on": "https://iiif.library.ubc.ca/cdm.squeezes.1-0050935/canvas/p0#xywh=543,3082,4877,205"
+                        },
+                        {
+                            "@id": "anno_12",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource":{
+                              "@type": "cnt:ContentAsText",
+                              "format": "text/plain",
+                              "chars": "<p>&Mu;&Omicron;&Nu;&Lambda;&Iota;&Theta;&Iota;&Nu;&Omicron;&Nu;</p>\n<p>&mu;ό&nu; &lambda;ί&theta;&iota;&nu;&omicron;&nu;</p>"
+                            },
+                            "on": "https://iiif.library.ubc.ca/cdm.squeezes.1-0050935/canvas/p0#xywh=548,3301,1711,188"
+                          },
+                          {
+                              "@id": "anno_13",
+                              "@type": "oa:Annotation",
+                              "motivation": "sc:painting",
+                              "resource":{
+                                "@type": "cnt:ContentAsText",
+                                "format": "text/plain",
+                                "chars": "<p>&Epsilon;&Sigma;&Tau;&Iota;&Alpha;&Iota;&Omicron;&Sigma;&Epsilon;&Iota;&Pi;&Epsilon;&Tau;&Rho;&Epsilon;&Sigma;&Alpha;&Nu;&Delta;&Rho;&Alpha;&Sigma;&Epsilon;&Lambda;&Epsilon;&Sigma;&Theta;</p>\n<p>ἑ&sigma;&tau;&iota;&alpha;ῖ&omicron;&sigmaf; &epsilon;ἶ&pi;&epsilon;&bull; &tau;&rho;&epsilon;&sigmaf; ἄ&nu;&delta;&rho;&alpha;&sigma; ἑ&lambda;έ&sigma;&theta;</p>"
+                              },
+                              "on": "https://iiif.library.ubc.ca/cdm.squeezes.1-0050935/canvas/p0#xywh=641,3499,4757,216"
+                            },
+                            {
+                                "@id": "anno_14",
+                                "@type": "oa:Annotation",
+                                "motivation": "sc:painting",
+                                "resource":{
+                                  "@type": "cnt:ContentAsText",
+                                  "format": "text/plain",
+                                  "chars": "<p>&Alpha;&Iota;&Epsilon;&Gamma;&Beta;&Omicron;&Lambda;&Epsilon;&Sigma;&Tau;&Omicron;&Theta;&Tau;&Omicron;&Sigma;&Delta;&Epsilon;&Mu;&Epsilon;&Tau; [. ] &Kappa;&Alpha;&Lambda;&Lambda;&Iota;&Kappa;&Rho;&Alpha;</p>\n<p>&alpha;&iota; ἐ&gamma; &beta;&omicron;&lambda;&epsilon;&sigmaf;&bull; &tau;&omicron;ύ&tau;&omicron;&sigma; &delta;ὲ &mu;&epsilon;&tau;[ὰ] &Kappa;&alpha;&lambda;&lambda;&iota;&kappa;&rho;ά</p>"
+                                },
+                                "on": "https://iiif.library.ubc.ca/cdm.squeezes.1-0050935/canvas/p0#xywh=773,3723,4620,188"
+                              },
+                              {
+                                  "@id": "anno_15",
+                                  "@type": "oa:Annotation",
+                                  "motivation": "sc:painting",
+                                  "resource":{
+                                    "@type": "cnt:ContentAsText",
+                                    "format": "text/plain",
+                                    "chars": "<p>..&Sigma;&Chi;&Sigma;&Theta;&Gamma;&Gamma;&Alpha;&Phi;&Sigma;&Alpha;&Nu;&Tau;&Alpha;&Sigma; &Epsilon;&Pi;&Iota;&Delta;..</p>\n<p>[&tau;&omicron;]&sigmaf; &chi;&sigma;&upsilon;&gamma;&gamma;ά&phi;&sigma;&alpha;&nu;&tau;&alpha;&sigmaf; ἐ&pi;[&iota;&delta;&epsilon;ῖ&chi;&sigma;&alpha;&iota; &tau;&epsilon;]</p>"
+                                  },
+                                  "on": "https://iiif.library.ubc.ca/cdm.squeezes.1-0050935/canvas/p0#xywh=850,3926,3059,205"
+                                },
+                                {
+                                    "@id": "anno_16",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "resource":{
+                                      "@type": "cnt:ContentAsText",
+                                      "format": "text/plain",
+                                      "chars": "<p>....&Epsilon;&Iota;&Kappa;&Alpha;&Theta;&Omicron;&Tau;&Iota;&Alpha;&Pi;&Omicron;&Mu;.....</p>\n<p>[&iota; &beta;&omicron;&lambda;]&epsilon;&iota; &kappa;&alpha;&theta;᾽ὅ &tau;&iota; ἀ&pi;&omicron;&mu;[&iota;&sigma;&theta;&omicron;&theta;έ&sigma;&epsilon;&tau;&alpha;&iota; . .]</p>"
+                                    },
+                                    "on": "https://iiif.library.ubc.ca/cdm.squeezes.1-0050935/canvas/p0#xywh=1255,4140,1848,216"
+                                  }
+
+  ]
+}
