@@ -4,6 +4,8 @@ Demo showing a potential application of annotations using IIIF and Mirador to Op
 
 ## [Epigraphic Squeezes - Decretum de Minervae Victoriae Sacerdote Temploque (I)](https://dx.doi.org/10.14288/1.0050935)
 
+Application is available on the UBC secure server at: https://epigraphic.library.ubc.ca/. UBC on-campus access only, with myvpn connection.
+
 ![mirador_epigraphic.gif](https://github.com/carolamigo/ubc_mirador_epigraphic/blob/master/mirador_epigraphic.gif)
 
 ### How to do it:
